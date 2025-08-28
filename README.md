@@ -6,7 +6,9 @@ Mod加载器：Forge-47.4.6
 整合包打包软件：Hello Minecraft Launcher
 整合包制作：ShiFengShuA (是枫书啊)
 邮箱：shifengshua@qq.com
+
 ————————
+
 整合包测试设备配置：
 电脑类型：台式机
 处理器：Intel Core i5-13400F
@@ -16,7 +18,9 @@ Mod加载器：Forge-47.4.6
 储存：1TB M.2
 系统：Windows 10 专业版 22H2
 软件：Plain Craft Launcher 2
+
 ————————
+
 更新日志：
 
 2025.8.29-1.0.1
