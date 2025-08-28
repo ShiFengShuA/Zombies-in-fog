@@ -1,0 +1,67 @@
+
+[general]
+	#Before this, zombies are like vanilla zombies
+	"Start EVOLUTION game stage" = 0.2
+
+	[general.zombie_main_ability_weight]
+		#Integer : Use integers to represent weights, the larger the number, the greater the weight
+		#Initial : 0% Game Stage; Final : 100% Game Stage
+		"Normal Initial" = 12
+		"Normal Final" = 12
+		"Builder Initial" = 5
+		"Builder Final" = 10
+		"Bow Initial" = 1
+		"Bow Final" = 3
+		"Crossbow Initial" = 1
+		"Crossbow Final" = 3
+
+	[general.zombie_other_ability_weight]
+		"Zombie Jump Stage" = 0.35
+		"Zombie Break Block Stage" = 0.2
+		"Zombie Place Block Stage" = 0.6
+		#Initial : 0% Game Stage; Final : 100% Game Stage
+		#Only Normal Zombie can use shield
+		"Shield Initial" = 0.0
+		"Shield Final" = 0.2
+		"Immune Sun Initial" = 0.0
+		"Immune Sun Final" = 1.0
+		"Swim Initial" = 0.0
+		"Swim Final" = 0.75
+
+	[general.zombie_attributes]
+		"Attack Value Initial" = 1.5
+		"Attack Value Final" = 3.0
+		"Run Speed Initial" = 1.0
+		"Run Speed Final" = 1.2
+		"Armor Initial" = 2.0
+		"Armor Final" = 4.0
+		"Break Speed Initial" = 1.0
+		"Break Speed Final" = 2.0
+
+	[general.game_attributes]
+		"Zombie Max Count Initial" = 50
+		"Zombie Max Count Final" = 140
+
+	[general.zombie_spawn_chance]
+		"Zombie Villager Spawning Chance" = 0.05
+
+[choosing_blocks]
+	#Zombie will try to break beds, chests, doors, machines and so on!
+	"ChoosingBlock WhiteList" = []
+	"ChoosingBlock BlackList" = []
+
+[breaking_blocks]
+	"blockBreaking BlackList" = []
+
+[target_choosing]
+	"TargetChoosing WhiteList" = ["guardvillagers:guard"]
+	"TargetChoosing BlackList" = []
+
+[zombie_spawn]
+	#The following creatures will be replaced with zombies
+	"ReplaceEntity WhiteList" = []
+	"ReplaceEntity BlackList" = []
+	#The following creatures will be removed
+	"RemoveEntity WhiteList" = []
+	"RemoveEntity BlackList" = []
+
