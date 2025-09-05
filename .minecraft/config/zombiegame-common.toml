@@ -48,10 +48,16 @@
 [choosing_blocks]
 	#Zombie will try to break beds, chests, doors, machines and so on!
 	"ChoosingBlock WhiteList" = []
-	"ChoosingBlock BlackList" = []
+	"ChoosingBlock BlackList" = [
+    "minecraft:obsidian",
+    "minecraft:netherite_block"
+]
 
 [breaking_blocks]
-	"blockBreaking BlackList" = []
+	"blockBreaking BlackList" = [
+    "minecraft:obsidian",
+    "minecraft:netherite_block"
+]
 
 [target_choosing]
 	"TargetChoosing WhiteList" = ["guardvillagers:guard"]
